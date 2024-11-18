@@ -1,3 +1,4 @@
-import a from '@jimao/hello';
+import MyClass from '@jimao/hello';
 
-console.log(a);
+const a = new MyClass();
+a.hello();
