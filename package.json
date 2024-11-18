@@ -1,13 +1,13 @@
 {
   "name": "jimao-libs-0",
   "version": "1.0.0",
-  "description": "",
+  "description": "monorepo-0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "jimao",
   "license": "ISC",
   "devDependencies": {
     "tsx": "4.19.2",
