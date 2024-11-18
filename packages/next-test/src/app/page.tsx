@@ -1,10 +1,20 @@
+'use client';
+
 import Box from "@/components/Box";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
+import { main } from '@jimao/console-test';
+import ABC from '@jimao/console-test';
 
 export default function Home() {
+  const flag = useRef<boolean>(true);
 
   useEffect(() => {
-    console.log('你好，世界');
+    if (flag.current) {
+      flag.current = false;
+      const a = new ABC('jimao nice!');
+      a.show();
+      main();
+    }
   }, []);
 
   return (
