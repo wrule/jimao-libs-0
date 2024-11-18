@@ -27,7 +27,11 @@ importers:
         specifier: 5.6.3
         version: 5.6.3
 
-  packages/prompt-cli: {}
+  packages/prompt-cli:
+    devDependencies:
+      typescript:
+        specifier: 5.6.3
+        version: 5.6.3
 
 packages:
 
