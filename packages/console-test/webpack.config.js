@@ -1,9 +1,11 @@
 import path from 'path';
 
+const __dirname = import.meta.dirname;
+
 export default {
-  entry: path.resolve(import.meta.__dirname, 'src/index.ts'),
+  entry: path.resolve(__dirname, 'src/index.ts'),
   output: {
-    path: path.resolve(import.meta.__dirname, 'dist'),
+    path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
     library: {
       name: 'console_test',
