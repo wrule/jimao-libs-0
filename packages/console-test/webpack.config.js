@@ -14,6 +14,9 @@ export default {
     },
     clean: true,
   },
+  resolve: {
+    extensions: ['.ts', '.js'],
+  },
   mode: 'production',
   devtool: 'source-map',
 };
