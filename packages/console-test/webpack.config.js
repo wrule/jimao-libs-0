@@ -1,9 +1,9 @@
-const path = require('path');
+import path from 'path';
 
-module.exports = {
-  entry: path.resolve(__dirname, 'src/index.ts'),
+export default {
+  entry: path.resolve(import.meta.__dirname, 'src/index.ts'),
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(import.meta.__dirname, 'dist'),
     filename: 'index.js',
     library: {
       name: 'console_test',
