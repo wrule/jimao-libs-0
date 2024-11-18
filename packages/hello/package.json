@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "a hello lib",
   "type": "module",
+  "main": "./dist/index.js",
   "module": "./dist/index.js",
   "scripts": {
     "build": "rimraf ./dist && tsc",
