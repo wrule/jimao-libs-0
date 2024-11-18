@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "a hello lib",
   "type": "module",
-  "module": "index.js",
+  "module": "dist/index.js",
   "scripts": {
     "build": "rimraf ./dist && tsc",
     "dev": "tsx --watch ./src/index.ts",

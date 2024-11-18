@@ -1,4 +1,4 @@
-// import a from '@jimao/hello';
+import a from '@jimao/hello';
 
 console.log('你好，世界');
 
