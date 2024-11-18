@@ -12,6 +12,15 @@ export default {
     },
     clean: true,
   },
+  module: {
+    rules: [
+      {
+        test: /\.ts$/i,
+        exclude: /node_modules/,
+        use: 'swc-loader',
+      },
+    ],
+  },
   resolve: {
     extensions: ['.ts', '.js'],
   },
