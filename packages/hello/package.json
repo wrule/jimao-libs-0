@@ -1,8 +1,9 @@
 {
-  "name": "hello",
+  "name": "@jimao/hello",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "a hello lib",
+  "type": "module",
+  "module": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
