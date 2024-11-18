@@ -8,14 +8,15 @@ export default {
     path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
     library: {
-      name: 'console_test',
-      type: 'umd',
-      export: 'main',
+      type: 'module',
     },
     clean: true,
   },
   resolve: {
     extensions: ['.ts', '.js'],
+  },
+  experiments: {
+    outputModule: true,
   },
   mode: 'production',
   devtool: 'source-map',
