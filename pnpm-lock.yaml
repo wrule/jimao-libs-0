@@ -33,6 +33,12 @@ importers:
         specifier: workspace:*
         version: link:../hello
     devDependencies:
+      rimraf:
+        specifier: 6.0.1
+        version: 6.0.1
+      tsx:
+        specifier: 4.19.2
+        version: 4.19.2
       typescript:
         specifier: 5.6.3
         version: 5.6.3
