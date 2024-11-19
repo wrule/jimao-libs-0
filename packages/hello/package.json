@@ -1,6 +1,6 @@
 {
   "name": "@jimao/hello",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a hello lib",
   "type": "module",
   "main": "./dist/index.js",

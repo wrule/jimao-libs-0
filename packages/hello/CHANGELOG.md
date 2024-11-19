@@ -1,5 +1,11 @@
 # @jimao/hello
 
+## 1.0.2
+
+### Patch Changes
+
+- 3cb97cb: 变更一下文案
+
 ## 1.0.1
 
 ### Patch Changes

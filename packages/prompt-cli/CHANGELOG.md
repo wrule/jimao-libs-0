@@ -1,5 +1,12 @@
 # prompt-cli
 
+## 1.0.2
+
+### Patch Changes
+
+- Updated dependencies [3cb97cb]
+  - @jimao/hello@1.0.2
+
 ## 1.0.1
 
 ### Patch Changes
