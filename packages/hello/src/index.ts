@@ -5,7 +5,7 @@ import { nanoid } from 'nanoid';
 export default
 class MyClass {
   public hello() {
-    console.log('你好世界', dayjs().format('YYYY-MM-DD HH:mm:ss'), nanoid());
+    console.log('你好世界，修改一下文本', dayjs().format('YYYY-MM-DD HH:mm:ss'), nanoid());
   }
 }
 
