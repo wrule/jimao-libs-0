@@ -5,6 +5,9 @@
   "type": "module",
   "module": "index.js",
   "scripts": {
+    "changeset": "changeset",
+    "version": "changeset version",
+    "release": "changeset publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
